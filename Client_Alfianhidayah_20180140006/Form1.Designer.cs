@@ -63,6 +63,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(122, 22);
             this.textBox1.TabIndex = 2;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
@@ -79,6 +80,7 @@
             this.label3.Size = new System.Drawing.Size(133, 17);
             this.label3.TabIndex = 4;
             this.label3.Text = "Hasil Penjumlahan :";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -88,6 +90,7 @@
             this.label4.Size = new System.Drawing.Size(137, 17);
             this.label4.TabIndex = 5;
             this.label4.Text = "Hasil Pengurangan :";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
             // 
@@ -97,6 +100,7 @@
             this.label5.Size = new System.Drawing.Size(110, 17);
             this.label5.TabIndex = 6;
             this.label5.Text = "Hasil Perkalian :";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label6
             // 
@@ -106,6 +110,7 @@
             this.label6.Size = new System.Drawing.Size(122, 17);
             this.label6.TabIndex = 7;
             this.label6.Text = "Hasil Pembagian :";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // button1
             // 
@@ -115,6 +120,7 @@
             this.button1.TabIndex = 8;
             this.button1.Text = "Hasil";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
